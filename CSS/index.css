@@ -1,0 +1,82 @@
+@media all and (min-width: 420px) and (max-width: 720px){
+  main, header{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 420px){
+	main, header{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 720px){
+	h1{
+		background-color: #eca1a6;
+		margin: 0;
+		padding: 25px;
+		font-size: 30px;
+		color: white;
+		text-align: center;
+	}
+
+	img{
+		margin: 0px 0px 0px 50px;
+	}
+
+	body{
+		font-family: Verdana, sans-serif;
+		font-size: 14px;
+		color: #4F545F;
+		margin: 0;
+		padding: 0;
+	}
+
+	h2{
+		font-size: 25px;
+	}
+
+	.Data{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #d6cbd3;
+		color: #3e4444;
+		font-size: 15px;
+		font-weight: 500;
+
+	}
+
+	.Data > li{
+		float: left;
+		padding: 20px 40px;
+		margin: 0px 110px;
+	}
+
+	main{
+		text-align: center;
+		overflow: hidden;
+	}
+
+	main  ul{
+		list-style-type: none;
+	}
+
+	.inLine{
+		float: left;
+		padding: 0px 200px;
+	}
+
+	.experience{
+		margin: 10px;
+		padding: 10px;
+		border: 4px dotted #eca1a6;
+	}
+}
